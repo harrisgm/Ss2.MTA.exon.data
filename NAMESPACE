@@ -1,0 +1,5 @@
+# Export everything
+# exportPattern("^[[:alpha:]]+")
+exportPattern(".")
+import(utils)
+import(data.table)

@@ -1,0 +1,19 @@
+Package: Ss2.MTA.exon.data
+Title: Contains the data files for analyzing MTA / ClariomD (mouse) arrays at the exon-level (PSR probeset ID) with the Sscore2 R package
+Version: 1.0.0
+Author: Guy M. Harris, Shahroze Abbas, and Michael F. Miles
+Description: Contains the data/annotations files for analyzing MTA / ClariomD (mouse) arrays at the exon-level (PSR probeset ID) with Sscore2 R package. Assembled using data from Affymetrix / Thermo-Fisher and from public repositories.
+Maintainer: Guy M. Harris <harrisgm@vcu.edu>
+License: GPL (>=3)
+Encoding: UTF-8
+biocViews: AnnotationData, AffymetrixChip, cdf
+Depends: utils, R (>=
+        3.6), data.table (>= 1.12)
+Imports: 
+organism: mus musculus
+species: mouse
+manufacturer: Affymetrix
+chipName: MTA_1-0
+LazyData: FALSE
+NeedsCompilation: no
+Packaged: 2019-08-01 21:54:59 UTC; harrisgm
